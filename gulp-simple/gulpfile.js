@@ -6,7 +6,7 @@ gulp.task('server', function() {
   browserSync.init({
     server: {
       // 根目录，index.html 文件所在的目录
-      baseDir: ''  
+      baseDir: './'  
     }
   })
 
