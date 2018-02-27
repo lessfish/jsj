@@ -1,5 +1,9 @@
 # gulp-simple
 
-1. cnpm i gulp -g
-2. cnpm i
-3. gulp
+```bash
+cnpm i gulp -g
+cnpm i
+gulp
+```
+
+该 demo 就一个 html 文件，支持热重载。
