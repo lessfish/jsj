@@ -1,5 +1,7 @@
 # webpack
 
+支持 sass 和 sourcemaps 
+
 使用方式：
 
 ```bash
