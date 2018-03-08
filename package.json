@@ -1,0 +1,13 @@
+{
+  "name": "jsj-cli",
+  "version": "1.0.0",
+  "author": "hanzichi",
+  "description": "CLI of jsj",
+  "bin": {
+    "jsj": "./cli.js"
+  },
+  "licenses": "MIT",
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  }
+}
