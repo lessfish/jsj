@@ -23,6 +23,7 @@ change the `basePath` according to the position of your cloned repo
 `cd` to the cloned repo in the command line, and then run:
 
 ```bash 
+npm install
 npm link 
 ```
 
