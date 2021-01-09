@@ -7,9 +7,8 @@ const fs = require('fs-extra')
 const path = require('path')
 
 let jsjType= process.argv[2]
-let projectName = process.argv[3]
 
-let destPath = path.join(process.cwd(), projectName)
+let destPath = process.argv[3] ? path.join(process.cwd(), process.argv[3]) : process.cwd()
 let sourcePath = path.join(basePath, jsjType)
 
 if (jsjType === 'webpack-simple') {

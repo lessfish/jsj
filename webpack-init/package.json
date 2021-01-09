@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "start": "nodemon --watch node_modules/expose-loader/index.js --watch webpack.config.js --exec \"webpack-dev-server\""
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
