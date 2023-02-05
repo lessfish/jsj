@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "dev": "gulp"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.10"
+  },
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1"
