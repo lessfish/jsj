@@ -8,8 +8,5 @@
   /* font-size: calc(10px + 2vmin); */
 }
 
-ul li {
-  /* display: inline; */
-}
 
-ul li{ display: inline; list-style-type: none; padding: 5px 5px;}
+ul li { display: inline; list-style-type: none; padding: 5px 5px; }
