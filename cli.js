@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
-// your local repo address here
-let basePath = '/Users/fish/github/jsj/'
+// your local repo path here
+let basePath = '/Users/bytedance/fish/github/jsj/'
 
 const fs = require('fs-extra')
 const path = require('path')
 
-let jsjType= process.argv[2]
+let jsjType = process.argv[2]
 
+// 如果有第三个参数，则作为文件夹名创建文件夹并且 init，如果没有，则在当前文件夹 init
 let destPath = process.argv[3] ? path.join(process.cwd(), process.argv[3]) : process.cwd()
 let sourcePath = path.join(basePath, jsjType)
 
