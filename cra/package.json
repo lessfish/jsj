@@ -35,5 +35,8 @@
   },
   "devDependencies": {
     "node-sass": "^8.0.0"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
   }
 }
