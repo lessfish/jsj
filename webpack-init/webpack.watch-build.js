@@ -27,23 +27,8 @@ module.exports = {
       }
     ]
   },
-  devServer: {
-    // dev server 调试过程中，也能自动生成 dist 文件
-    // writeToDisk: true,
-    stats: {
-      assets: false,
-      children: false,
-      chunks: false,
-      hash: false,
-      modules: false,
-      publicPath: false,
-      timings: false,
-      version: false,
-      warnings: true,
-      colors: {
-        green: '\u001b[32m'
-      }
-    },
-    host: '0.0.0.0'
-  }
+  watch: true,
+  watchOptions: {
+    ignored: /node_modules/,
+  },
 }
