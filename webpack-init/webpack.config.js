@@ -44,6 +44,7 @@ module.exports = {
         green: '\u001b[32m'
       }
     },
+    // 配置后可以通过 local ip + 端口 打开
     host: '0.0.0.0'
   }
 }
