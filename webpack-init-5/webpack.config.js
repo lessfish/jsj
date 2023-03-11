@@ -28,11 +28,13 @@ module.exports = {
     ]
   },
   devServer: {
-    // dev server 调试过程中，也能自动生成 dist 文件
-    // writeToDisk: true,
     // 配置后可以通过 local ip + 端口 打开
     host: '0.0.0.0',
     // 可以在 hosts 里配置，然后通过 hosts 里配置的 域名+端口 打开
     allowedHosts: "all",
-  }
+    devMiddleware: {
+      // dev server 调试过程中，也能自动生成 dist 文件
+      // writeToDisk: true,
+    },
+  },
 }
