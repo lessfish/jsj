@@ -28,6 +28,7 @@ module.exports = {
     ]
   },
   devServer: {
+    open: true,
     // dev server 调试过程中，也能自动生成 dist 文件
     // writeToDisk: true,
     stats: {
