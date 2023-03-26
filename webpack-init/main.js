@@ -1,1 +1,3 @@
-document.write('hello world')
+window.onload = () => {
+  document.write('hello world')
+}

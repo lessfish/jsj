@@ -36,7 +36,6 @@ jsj cra-ts <projectName>
 jsj cra-router <projectName> # 用于测试多 router 场景
 jsj cra-multi-router <projectName> # router 根据文件夹列表自动生成，用于写多 router demo
 jsj webpack-init <projectName> # webpack 最简配置，主要用来测试 js
-jsj webpack-init-5 <projectName> # 将 `webpack-init` 升级到 webpack5.x
 ```
 
 ~~The deprecated ones:~~
@@ -46,4 +45,5 @@ jsj webpack-init-5 <projectName> # 将 `webpack-init` 升级到 webpack5.x
 ~~jsj gulp <projectName>~~（deprecated）
 ~~jsj webpack-simple <projectName>~~（deprecated）
 ~~jsj webpack <projectName>~~（deprecated）
+~~jsj webpack-init-4 <projectName> # webpack 最简配置，主要用来测试 js~~
 ```

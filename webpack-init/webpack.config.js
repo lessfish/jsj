@@ -29,25 +29,13 @@ module.exports = {
   },
   devServer: {
     open: true,
-    // dev server 调试过程中，也能自动生成 dist 文件
-    // writeToDisk: true,
-    stats: {
-      assets: false,
-      children: false,
-      chunks: false,
-      hash: false,
-      modules: false,
-      publicPath: false,
-      timings: false,
-      version: false,
-      warnings: true,
-      colors: {
-        green: '\u001b[32m'
-      }
-    },
     // 配置后可以通过 local ip + 端口 打开
     host: '0.0.0.0',
     // 可以在 hosts 里配置，然后通过 hosts 里配置的 域名+端口 打开
-    disableHostCheck: true,
-  }
+    allowedHosts: "all",
+    devMiddleware: {
+      // dev server 调试过程中，也能自动生成 dist 文件
+      // writeToDisk: true,
+    },
+  },
 }
