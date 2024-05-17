@@ -13,17 +13,19 @@ $ yarn start
 
 ```js
 // 引入
-import styles from './style.module.css'
+import styles from "./style.module.css";
 
 // 使用
-<Button type='primary' className={styles.bg}>click</Button>
+<Button type="primary" className={styles.bg}>
+  click
+</Button>;
 ```
 
 style.module.css：
 
 ```css
 .bg {
-  background-color: red !important
+  background-color: red !important;
 }
 ```
 
@@ -33,23 +35,22 @@ css module 使用中的 className [推荐用驼峰](https://github.com/css-modul
 
 ```js
 // 引入
-import styles from './style.module.css'
+import styles from "./style.module.css";
 
 // 使用
-<div className={styles['btn-container']}>
-  <Button type='primary'>click</Button>
-</div>
+<div className={styles["btn-container"]}>
+  <Button type="primary">click</Button>
+</div>;
 ```
 
 style.module.css：
 
 ```css
 .btn-container :global(.arco-btn) {
-  background-color: red !important
+  background-color: red !important;
 }
 ```
 
 ## 支持 SCSS
 
-只需要安装好 `node-sass`
-
+只需要安装好 `node-sass`（建议优先安装 `sass`）
